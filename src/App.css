@@ -3,23 +3,16 @@
 .App{
     display: flex;
     background-color: #cae9f5;
+    padding: 40px;
 }
 
-
-
-/* .App {
-    display: flex;
-    padding: 20px;
-    columns: 2 auto;
-    background-color: #cae9f5;
-} */
-
-#bakery{
-    display: flex;
+.heading{
+    margin-bottom: 40px;
 }
 
 #cart{
-    width: 30vw;
+    width: 50vw;
+    padding-left: 60px;
 }
 
 .itemImage{
@@ -29,8 +22,7 @@
 
 .button{
     font-size: 20px;
-    float: right;
-    border: white;
+    justify-content: center;
 }
 
 p{
@@ -42,59 +34,9 @@ p{
     border-radius: 5%;
     background-color: white;
     padding: 5px;
+    justify-content: center;
 }
 
 .itemInfo{
     padding: 5px;
 }
-
-.price{
-    columns: 2 auto;
-    justify-content: space-between;
-
-}
-
-
-
-
-
-
-/* .menuItems{
-    columns: 2 auto;
-    width: 10vw;
-} */
-
-
-
-
-/* .bakeryItem{
-    width: 60vw;
-
-}
-
-#bakery{
-    display: flex;
-    width: 50vw;
-}
-
-.itemImage{
-    width: 400px;
-}
-
-.menuItems{
-    flex:50%;
-    justify-content: space-evenly;
-}
-
-p{
-    font-size: 20px;
-}
-
-.button{
-    font-size: 20px;
-}
-
-#cart{
-    width: 30vw;
-} 
-*/

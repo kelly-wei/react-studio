@@ -45,11 +45,14 @@ function App() {
         <div class="heading">
           <h1>Berry Baked Goods</h1>
         </div>
+
         <div class="menuItems">
           {bakeryData.map((item, index) => (
             <div class="bakeryItems" id={index}>
               {DisplayBakeryItem(item)}
               <button class="button" onClick={() => addToCart(item)}>Add to Cart</button>
+              <br></br>
+              <br></br>
             </div>
           ))}
         </div>
@@ -60,7 +63,7 @@ function App() {
         <p>{cartItems}</p>
         <div>
           <p><b>Cart Total: {cartTotal}</b></p>
-          </div>
+          </div> 
       </div>
     </div>
   );
